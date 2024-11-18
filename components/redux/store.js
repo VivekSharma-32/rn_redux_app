@@ -4,7 +4,6 @@ import createSagaMiddleware from 'redux-saga';
 import SagaData from './saga';
 const sagaMiddleware = createSagaMiddleware();
 
-createSagaMiddleware;
 const store = configureStore({
   reducer: rootReducer,
   middleware: () => [sagaMiddleware],
